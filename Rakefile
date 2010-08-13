@@ -5,11 +5,12 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "simple_search"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Simple hash-based search for ActiveRecord}
+    gem.description = %Q{Simple hash-based search for ActiveRecord.  Also see Scoped Search.}
     gem.email = "nate@wiger.org"
     gem.homepage = "http://github.com/nateware/simple_search"
     gem.authors = ["Nate Wiger"]
+    gem.add_dependency 'will_paginate'
     gem.add_development_dependency "bacon", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
