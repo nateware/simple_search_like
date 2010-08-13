@@ -2,7 +2,9 @@ Simple Search - Easy ActiveRecord searching with hashes
 =======================================================
 
 There is a newer project, scoped_search, which I would recommend instead.  This exists for backwards compatibility.
-See: http://techblog.floorplanner.com/2008/07/26/easy-search-with-activerecord/
+See: [Scoped Search](http://techblog.floorplanner.com/2008/07/26/easy-search-with-activerecord/)
+
+This gem is incompatible with the "simple_search" gem.
 
 Example
 -------

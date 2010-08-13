@@ -4,11 +4,11 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "simple_search"
+    gem.name = "simple_search_like"
     gem.summary = %Q{Simple hash-based search for ActiveRecord}
     gem.description = %Q{Simple hash-based search for ActiveRecord.  Also see Scoped Search.}
     gem.email = "nate@wiger.org"
-    gem.homepage = "http://github.com/nateware/simple_search"
+    gem.homepage = "http://github.com/nateware/simple_search_like"
     gem.authors = ["Nate Wiger"]
     gem.add_dependency 'will_paginate'
     gem.add_development_dependency "bacon", ">= 0"
@@ -48,7 +48,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "simple_search #{version}"
+  rdoc.title = "simple_search_like #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
